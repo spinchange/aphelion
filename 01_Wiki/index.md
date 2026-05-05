@@ -36,6 +36,10 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[stellar-nucleosynthesis]] — how stars forge elements; B2FH; seeding the interstellar medium
 
+### Astrophysics — Particles and Radiation
+
+- [[cosmic-ray]] — high-energy particles at near-light-speed; composition, sources, air showers, radiation hazards
+
 ### Space Exploration
 
 - [[voyager-program]] — twin 1977 spacecraft; Grand Tour; heliopause crossings; Pale Blue Dot; current interstellar mission status
