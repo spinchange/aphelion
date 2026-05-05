@@ -11,6 +11,9 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+# Google Drive sync artifacts
+.tmp.driveupload/
+
 # Editor
 .vscode/
 .idea/
