@@ -36,6 +36,12 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[stellar-nucleosynthesis]] — how stars forge elements; B2FH; seeding the interstellar medium
 
+### Heliophysics — Sun and Space Environment
+
+- [[solar-science]] — the Sun's 11/22-year cycles, flares, CMEs, NASA solar missions
+- [[space-weather]] — effects on satellites, GPS, power grids, astronauts; forecasting
+- [[heliophysics]] — unified system science: Sun → solar wind → magnetospheres → ITM
+
 ### Space Law and Policy
 
 - [[outer-space-treaty]] — foundational 1967 treaty; province of all mankind; 118 parties

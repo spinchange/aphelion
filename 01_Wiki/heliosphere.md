@@ -38,3 +38,5 @@ Earlier models predicted a blunt-nosed, comet-like shape compressed by interstel
 ## Exploration
 
 Five spacecraft have explored the outer heliosphere: Pioneer 10 (to 67 AU), Pioneer 11 (44 AU), Voyager 1 and 2 (ongoing, past heliopause), and New Horizons.
+
+**Voyager current status (as of April 2026):** Voyager 1 and 2 are the only spacecraft ever to operate outside the heliosphere. Nearly 49 years into their mission, both continue to return science data but face severe power constraints as their radioisotope thermoelectric generators (RTGs) decay. In April 2026, NASA shut down one of Voyager 1's remaining instruments to conserve power, leaving it with two science instruments still operating. The twin Voyagers are escaping the solar system in different directions at more than 3 AU per year. Though beyond the heliopause, they remain within the Solar System's gravitational boundary — the outer edge of the Oort Cloud.

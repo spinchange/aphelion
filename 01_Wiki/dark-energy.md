@@ -39,3 +39,9 @@ First detected via **Type Ia supernovae** measurements in the late 1990s. Type I
 **Scalar fields (quintessence, moduli)** — Dynamic quantities whose energy density varies in space and time. Would produce an evolving dark energy consistent with DESI results.
 
 Einstein introduced Λ to produce a static universe, calling "empty space" possessing its own energy. Hubble's 1929 discovery of expansion made the static model unnecessary — Einstein reportedly called his original motivation his "greatest blunder." Dark energy's discovery vindicated the concept while overturning the motivation.
+
+## Upcoming NASA Missions
+
+**Nancy Grace Roman Space Telescope** (launching fall 2026) — Will study dark energy and dark matter together, which make up ~95% of the universe. Will use weak gravitational lensing, galaxy clustering, and Type Ia supernovae to constrain the dark energy equation of state with far greater precision than current surveys. Combined with its wide field, Roman will also discover thousands of exoplanets.
+
+**Euclid** (ESA, launched 2023, NASA participating) — Wide-field survey mapping the geometry of the dark universe over cosmic time via weak lensing and galaxy clustering.
