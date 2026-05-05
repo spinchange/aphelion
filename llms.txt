@@ -2,7 +2,7 @@
 
 > A YANP-compliant knowledge vault for space science, astronomy, and cosmology.
 
-Generated: 2026-05-05T22:20:48Z
+Generated: 2026-05-05T22:22:12Z
 Repository: https://github.com/spinchange/aphelion
 Portal: https://spinchange.github.io/aphelion/index.html
 Machine-readable file: https://spinchange.github.io/aphelion/llms.txt
@@ -13,7 +13,7 @@ Aphelion is a satellite knowledge corpus orbiting the Vulture Nest AI/software v
 
 ## Current Surface
 
-- Wiki notes: 14
+- Wiki notes: 13
 
 ## Start Here
 

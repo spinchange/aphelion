@@ -41,10 +41,6 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[outer-space-treaty]] — foundational 1967 treaty; province of all mankind; 118 parties
 - [[space-debris]] — orbital pollution, Kessler syndrome, mitigation challenges
 
-### Mathematics (Namesake)
-
-- [[culler-vogtmann-outer-space]] — geometric group theory; free group analog of Teichmüller space
-
 ## Sources Indexed
 
 | Domain | Pages | Chunks | Indexed |
