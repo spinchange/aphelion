@@ -49,9 +49,11 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[space-weather]] — effects on satellites, GPS, power grids, astronauts; forecasting
 - [[heliophysics]] — unified system science: Sun → solar wind → magnetospheres → ITM
 
-### Space Exploration
+### Space Exploration and Observatories
 
 - [[voyager-program]] — twin 1977 spacecraft; Grand Tour; heliopause crossings; Pale Blue Dot; current status
+- [[parker-solar-probe]] — first spacecraft in the corona; magnetic switchbacks; solar wind origin; launched 2018
+- [[james-webb-space-telescope]] — infrared time machine; 13.5 Gyr lookback; L2 orbit; first light 2022
 
 ### Space Law and Policy
 
