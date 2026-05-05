@@ -26,6 +26,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 ### Astrophysics — Stellar Processes and Particles
 
 - [[stellar-nucleosynthesis]] — how stars forge elements; B2FH; seeding the interstellar medium
+- [[supernova]] — stellar death; Type Ia standard candles; r-process; cosmic ray acceleration; ISM enrichment
 - [[cosmic-ray]] — high-energy particles at near-light-speed; composition, sources, air showers
 
 ### Space Regions and Structure
@@ -34,6 +35,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[karman-line]] — the 100 km boundary between atmosphere and space
 - [[local-bubble]] — low-density ISM cavity around the Sun; supernova-carved; star formation on bubble surface
 - [[interstellar-medium]] — space between stars; Local Bubble; molecular chemistry
+- [[kuiper-belt]] — 30–50 AU; icy planetesimals; Pluto; scattered disc; New Horizons flybys
 - [[oort-cloud]] — 2,000–200,000 AU; cometary reservoir; galactic tide; ~90% captured from other stars
 - [[interplanetary-medium]] — heliosphere interior, solar wind, zodiacal light
 - [[heliosphere]] — the Sun's wind-bubble; termination shock to heliopause
