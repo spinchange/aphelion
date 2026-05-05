@@ -2,7 +2,7 @@
 
 > A YANP-compliant knowledge vault for space science, astronomy, and cosmology.
 
-Generated: 2026-05-05T22:25:57Z
+Generated: 2026-05-05T22:32:09Z
 Repository: https://github.com/spinchange/aphelion
 Portal: https://spinchange.github.io/aphelion/index.html
 Machine-readable file: https://spinchange.github.io/aphelion/llms.txt
