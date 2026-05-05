@@ -19,6 +19,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 ### Cosmology — Origin and Large-Scale Structure
 
+- [[milky-way]] — our barred spiral galaxy; Sgr A*; spiral arms; galactic halo; Andromeda collision in 4 Gyr
 - [[big-bang]] — 13.8 Gyr ago; inflation, BBN, recombination, CMB; four pillars; Lambda-CDM
 - [[dark-matter]] — 27% of universal mass-energy; rotation curves, gravitational lensing, CDM
 - [[dark-energy]] — 68% of universal mass-energy; cosmological constant, accelerating expansion
@@ -46,6 +47,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 ### Heliophysics — Sun and Solar Wind
 
 - [[solar-science]] — the Sun's 11/22-year cycles, flares, CMEs, NASA solar missions
+- [[solar-corona]] — outermost solar atmosphere; coronal heating mystery; nanoflares; wave heating; Parker PSP
 - [[solar-wind]] — corona outflow; fast/slow streams; Parker spiral; comet tails; atmospheric erosion
 - [[coronal-mass-ejection]] — billion-tonne plasma eruptions; Carrington Event; geomagnetic storm driver
 - [[space-weather]] — effects on satellites, GPS, power grids, astronauts; forecasting
