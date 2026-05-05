@@ -17,6 +17,18 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 ## Clusters
 
+### Mythology × Astronomy — Sky Crossings
+
+Crossing notes document where mythological characterisation and astronomical reality converge — whether by ancient observation or accidental correspondence.
+
+- [[crossing-mercury-hermes]] — **accidental** — messenger god / statistically closest planet to all others; formalized 2019
+- [[crossing-orion-scorpius]] — **observed** — killer and victim placed on opposite sides of sky; never share the night sky
+- [[myth-hermes]] — Hermes: psychopomp, boundary-crosser, always accessible, youngest Olympian
+- [[myth-orion]] — Orion: giant hunter, killed by scorpion, pursues the Pleiades eternally
+- [[mercury-planet]] — the innermost planet; proximity paradox; Nabu/Hermes/Woden convergence
+- [[orion-constellation]] — winter constellation; Orion Nebula; opposite Scorpius; Betelgeuse supernova candidate
+- [[babylonian-astronomy]] — first functional planetary theory; Mercury as Nabu; empirical not cosmological
+
 ### Cosmology — Origin and Large-Scale Structure
 
 - [[milky-way]] — our barred spiral galaxy; Sgr A*; spiral arms; galactic halo; Andromeda collision in 4 Gyr
