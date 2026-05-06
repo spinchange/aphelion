@@ -39,6 +39,13 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[iau-naming-conventions]] — the structured mythology-per-orbital-class system built into planetary science
 
+### Mythology × Astronomy — Beyond the Naked Eye
+
+- [[crossing-uranus-ouranos]] — **observed** — primordial formless sky / first planet beyond the known cosmos; Aphrodite chain
+- [[myth-ouranos]] — primordial sky itself; castrated by Cronus; Aphrodite born from sea foam; recedes to empty sky
+- [[uranus-planet]] — first telescopic planet; 97.77° tilt; sideways seasons; Shakespeare moon names; coldest atmosphere
+- [[sirius]] — brightest star; Egyptian Nile calendar (Sopdet/Isis); Greek dog days; Polynesian Great Bird; Qur'an
+
 ### Mythology × Astronomy — The Five Planets (Naked Eye)
 
 - [[crossing-mercury-hermes]] — **accidental** — messenger god / statistically closest planet; formalized 2019
@@ -75,6 +82,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[milky-way]] — our barred spiral galaxy; Sgr A*; spiral arms; galactic halo; Andromeda collision in 4 Gyr
 - [[big-bang]] — 13.8 Gyr ago; inflation, BBN, recombination, CMB; four pillars; Lambda-CDM
+- [[cosmic-microwave-background]] — 2.7 K afterglow; released at 380,000 years; Penzias & Wilson 1964; encodes dark matter density
 - [[dark-matter]] — 27% of universal mass-energy; rotation curves, gravitational lensing, CDM
 - [[dark-energy]] — 68% of universal mass-energy; cosmological constant, accelerating expansion
 
@@ -84,6 +92,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[supernova]] — stellar death; Type Ia standard candles; r-process; cosmic ray acceleration; ISM enrichment
 - [[neutron-star]] — densest stable objects; pulsars; magnetars; gold forged in mergers
 - [[black-hole]] — event horizon; Sgr A*; Hawking radiation; gravitational wave source; no-hair theorem
+- [[gravitational-waves]] — ripples in spacetime; LIGO 2015; GW170817 confirmed gold synthesis; pulsar timing background
 - [[cosmic-ray]] — high-energy particles at near-light-speed; composition, sources, air showers
 
 ### Space Regions and Structure
@@ -108,6 +117,10 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[coronal-mass-ejection]] — billion-tonne plasma eruptions; Carrington Event; geomagnetic storm driver
 - [[space-weather]] — effects on satellites, GPS, power grids, astronauts; forecasting
 - [[heliophysics]] — unified system science: Sun → solar wind → magnetospheres → ITM
+
+### Exoplanets and the Search for Life
+
+- [[exoplanets]] — thousands known; transit/Doppler/microlensing; habitable zones; biosignatures; JWST atmospheres
 
 ### Space Exploration and Observatories
 

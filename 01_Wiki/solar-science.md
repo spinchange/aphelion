@@ -36,7 +36,7 @@ The Sun releases energy in two fundamentally different ways:
 
 **Solar flares** — Intense bursts of radiation from the release of magnetic energy near sunspots. Classified by X-ray intensity (A, B, C, M, X classes). X-class flares are the most powerful.
 
-**Coronal mass ejections (CMEs)** — Giant explosions of plasma and magnetic field from the solar corona. When Earth-directed, CMEs can cause [[space-weather#geomagnetic-storms|geomagnetic storms]] within 1–3 days.
+**Coronal mass ejections (CMEs)** — Giant explosions of plasma and magnetic field from the solar corona. When Earth-directed, CMEs can cause [[space-weather|geomagnetic storms]] within 1–3 days.
 
 **Solar energetic particles (SEPs)** — Charged particles (primarily protons) accelerated to near-light-speed during flares or CMEs. Can reach Earth in minutes to hours; a radiation hazard for astronauts and satellites.
 
