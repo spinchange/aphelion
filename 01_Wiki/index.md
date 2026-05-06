@@ -17,6 +17,20 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 ## Clusters
 
+### Navigation — Human × Sky
+
+- [[celestial-navigation]] — latitude trivial (measure Polaris); longitude hard (needed a clock); 57 navigational stars; no planets
+- [[polynesian-navigation]] — star paths; 150 stars; wave/swell piloting; frigatebird; Marshall Islands stick charts; Tupaia
+- [[islamic-astronomy]] — preserved Greek knowledge; Arabic star names (Aldebaran, Rigel, Vega...); astrolabe; prayer times drove precision
+- [[astrolabe]] — "star-taker"; 1,000 uses (al-Sufi); latitude, time, qibla; bridge from antiquity to Age of Discovery
+- [[longitude-problem]] — Earth turns 1° per 4 minutes; Harrison's H-4 chronometer (1762); £20,000 prize; GPS is its heir
+- [[polaris]] — current North Star; Thuban was pole star 2750 BC; precession changes it every ~26,000 years; Polaris 2.5× brighter than in Ptolemy's time
+- [[southern-cross]] — navigation reference for Southern Hemisphere; 5 national flags; Coalsack = Dark Emu's head
+- [[viking-navigation]] — sunstone (Iceland spar) locates Sun in total overcast; latitude sailing; Vinland without a compass
+- [[aboriginal-astronomy]] — dark constellations (Emu in the Sky); ecological calendar; Eta Carinae eruption recorded in oral tradition
+- [[canopus]] — 2nd brightest star; named after a navigator (pilot of Menelaus); Arab navigation reference; NASA spacecraft use it for attitude control
+- [[crossing-mercury-retrograde]] — **false** — Mercury was useless for ancient navigation; retrograde harm deduced from mythology not observation
+
 ### Sky Events — Observation
 
 - [[solar-eclipses-total]] — upcoming total solar eclipses 2026–2046; paths of totality; calendar import
