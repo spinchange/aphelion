@@ -7,7 +7,7 @@ aliases: [Jupiter Zeus crossing, king of gods largest planet, gravitational rule
 type: permanent
 crossing-type: partially-knowable
 knowable-in-antiquity: partially
-myth-note: "[[jupiter-planet]]"
+myth-note: "[[myth-zeus]]"
 sky-note: "[[jupiter-planet]]"
 provenance:
   source_page_ids: [6d8e69c1-742b-47f9-a3ab-d1d9c7a7b0e8]

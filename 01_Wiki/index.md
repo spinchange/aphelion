@@ -32,6 +32,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[crossing-mars-ares]] — **observed** — red colour + retrograde chaos / god of unpredictable war
 - [[crossing-jupiter-zeus]] — **partially knowable** — brightest wanderer / king of gods; gravitational dominance unknowable
 - [[crossing-saturn-cronus]] — **observed** — slowest planet / god of deep time and the age before Zeus
+- [[myth-zeus]] — king of the Olympians; establisher of cosmic order; *Dyeus Pater*; Thursday
 - [[myth-hermes]] — psychopomp, boundary-crosser, always accessible, youngest Olympian
 - [[myth-aphrodite]] — born from sea foam; Inanna lineage; Ourania vs Pandemos
 - [[myth-ares]] — bloodlust, unpredictability, humiliation; Phobos and Deimos
@@ -67,6 +68,8 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[stellar-nucleosynthesis]] — how stars forge elements; B2FH; seeding the interstellar medium
 - [[supernova]] — stellar death; Type Ia standard candles; r-process; cosmic ray acceleration; ISM enrichment
+- [[neutron-star]] — densest stable objects; pulsars; magnetars; gold forged in mergers
+- [[black-hole]] — event horizon; Sgr A*; Hawking radiation; gravitational wave source; no-hair theorem
 - [[cosmic-ray]] — high-energy particles at near-light-speed; composition, sources, air showers
 
 ### Space Regions and Structure
