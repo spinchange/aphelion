@@ -9,11 +9,11 @@ type: permanent
 
 # Aphelion
 
-A YANP-compliant knowledge vault for space science, astronomy, and cosmology. Satellite corpus to vulture-nest, sharing ingestion infrastructure (local crawler + Supabase/pgvector).
+A [YANP-compliant](https://spinchange.github.io/yanp/) knowledge vault for space science, astronomy, and cosmology. Satellite corpus to vulture-nest, sharing ingestion infrastructure (local crawler + Supabase/pgvector).
 
 ## Orientation
 
-Aphelion is the farthest point from the sun in an orbit — this vault collects knowledge at the edge of the main AI/software corpus.
+Aphelion is the farthest point from the sun in an orbit — this vault collects knowledge at the edge of the [main AI/software corpus](https://spinchange.github.io/vulture-nest/).
 
 ## Clusters
 
