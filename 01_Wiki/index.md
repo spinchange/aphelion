@@ -154,7 +154,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 | Domain | Pages | Chunks | Indexed |
 |---|---|---|---|
-| en.wikipedia.org | 18 | ~550 | 2026-05-05 |
+| en.wikipedia.org | ~50 | ~1,700 | through 2026-05-06 |
 | orbitaldebris.jsc.nasa.gov | 8 | 21 | 2026-05-05 |
 | science.nasa.gov | 13 | ~200 | 2026-05-05 |
 | voyager.jpl.nasa.gov (via science.nasa.gov) | 8 | 138 | 2026-05-05 |
@@ -165,3 +165,10 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - 2026-05-05: Second batch — 7 stub-filling notes (dark matter, dark energy, heliosphere, stellar nucleosynthesis, Van Allen belts, Outer Space Treaty, space debris)
 - 2026-05-05: NASA content — space-debris upgraded, solar-science, space-weather, heliophysics, dark-energy (Roman), heliosphere (Voyager status), voyager-program
 - 2026-05-05: Third batch — cosmic-ray, oort-cloud, coronal-mass-ejection, local-bubble, big-bang, solar-wind
+- 2026-05-05: Navigation cluster — celestial-navigation, polynesian-navigation, viking-navigation, islamic-astronomy, astrolabe, longitude-problem, polaris, southern-cross, canopus, aboriginal-astronomy
+- 2026-05-05: Mythology × Astronomy cluster — all 5 naked-eye planet crossings + myth notes + planet notes; Sedna, Eris, Orion, Pleiades, Babylonian astronomy; IAU naming conventions
+- 2026-05-05: Astrophysics — neutron-star, black-hole, supernova, gravitational-waves, milky-way, solar-corona, james-webb-space-telescope, parker-solar-probe
+- 2026-05-06: Beyond the naked eye — sirius, uranus-planet, myth-ouranos, crossing-uranus-ouranos; CMB, exoplanets (Wikipedia sourced)
+- 2026-05-06: Outer solar system mythology — neptune-planet, myth-poseidon, crossing-neptune-poseidon, pluto-dwarf-planet, myth-hades, crossing-pluto-hades (Neptune/Pluto/Poseidon/Hades/Triton Wikipedia crawled)
+- 2026-05-06: Space exploration trio — hubble-space-telescope, new-horizons, cassini-huygens (Wikipedia sourced; 92+84+27 chunks)
+- 2026-05-06: 100 pages reached — white-dwarf, nebula, andromeda-galaxy, quasar, cosmic-inflation, fermi-paradox, moon, compass (all Wikipedia sourced)
