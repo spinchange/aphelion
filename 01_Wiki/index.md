@@ -133,6 +133,9 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[voyager-program]] — twin 1977 spacecraft; Grand Tour; heliopause crossings; Pale Blue Dot; current status
 - [[parker-solar-probe]] — first spacecraft in the corona; magnetic switchbacks; solar wind origin; launched 2018
 - [[james-webb-space-telescope]] — infrared time machine; 13.5 Gyr lookback; L2 orbit; first light 2022
+- [[hubble-space-telescope]] — flawed mirror fixed by spacewalk; deep fields; dark energy; Hubble tension; 35+ years
+- [[new-horizons]] — first Pluto flyby 2015; Tombaugh Regio heart; Arrokoth contact binary; most distant object visited
+- [[cassini-huygens]] — 13 years at Saturn; Huygens on Titan; Enceladus ocean; ring age; Grand Finale 2017
 
 ### Space Law and Policy
 
