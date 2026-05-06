@@ -17,6 +17,10 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 ## Clusters
 
+### Sky Events — Observation
+
+- [[solar-eclipses-total]] — upcoming total solar eclipses 2026–2046; paths of totality; calendar import
+
 ### Mythology × Astronomy — Sky Crossings
 
 Crossing notes document where mythological characterisation and astronomical reality converge — whether by ancient observation or accidental correspondence.
