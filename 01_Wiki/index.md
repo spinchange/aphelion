@@ -44,6 +44,9 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[crossing-uranus-ouranos]] — **observed** — primordial formless sky / first planet beyond the known cosmos; Aphrodite chain
 - [[myth-ouranos]] — primordial sky itself; castrated by Cronus; Aphrodite born from sea foam; recedes to empty sky
 - [[uranus-planet]] — first telescopic planet; 97.77° tilt; sideways seasons; Shakespeare moon names; coldest atmosphere
+- [[crossing-neptune-poseidon]] — **observed** — deep blue planet / sea god; found by inference from hidden perturbation; Triton moon chain
+- [[myth-poseidon]] — sea, earthquakes, horses; Earth-Shaker; trident; contest with Athena; father of Triton and Polyphemus
+- [[neptune-planet]] — found by math prediction (1846); strongest winds in Solar System; Triton retrograde moon; 164.8-year orbit
 - [[sirius]] — brightest star; Egyptian Nile calendar (Sopdet/Isis); Greek dog days; Polynesian Great Bird; Qur'an
 
 ### Mythology × Astronomy — The Five Planets (Naked Eye)
