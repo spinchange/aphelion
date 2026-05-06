@@ -21,16 +21,39 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[solar-eclipses-total]] — upcoming total solar eclipses 2026–2046; paths of totality; calendar import
 
-### Mythology × Astronomy — Sky Crossings
+### Mythology × Astronomy — Framework
 
-Crossing notes document where mythological characterisation and astronomical reality converge — whether by ancient observation or accidental correspondence.
+- [[iau-naming-conventions]] — the structured mythology-per-orbital-class system built into planetary science
 
-- [[crossing-mercury-hermes]] — **accidental** — messenger god / statistically closest planet to all others; formalized 2019
-- [[crossing-orion-scorpius]] — **observed** — killer and victim placed on opposite sides of sky; never share the night sky
-- [[myth-hermes]] — Hermes: psychopomp, boundary-crosser, always accessible, youngest Olympian
-- [[myth-orion]] — Orion: giant hunter, killed by scorpion, pursues the Pleiades eternally
-- [[mercury-planet]] — the innermost planet; proximity paradox; Nabu/Hermes/Woden convergence
-- [[orion-constellation]] — winter constellation; Orion Nebula; opposite Scorpius; Betelgeuse supernova candidate
+### Mythology × Astronomy — The Five Planets (Naked Eye)
+
+- [[crossing-mercury-hermes]] — **accidental** — messenger god / statistically closest planet; formalized 2019
+- [[crossing-venus-aphrodite]] — **observed** — brightest object / goddess of beauty; Inanna descent myth encodes Venus's disappearance
+- [[crossing-mars-ares]] — **observed** — red colour + retrograde chaos / god of unpredictable war
+- [[crossing-jupiter-zeus]] — **partially knowable** — brightest wanderer / king of gods; gravitational dominance unknowable
+- [[crossing-saturn-cronus]] — **observed** — slowest planet / god of deep time and the age before Zeus
+- [[myth-hermes]] — psychopomp, boundary-crosser, always accessible, youngest Olympian
+- [[myth-aphrodite]] — born from sea foam; Inanna lineage; Ourania vs Pandemos
+- [[myth-ares]] — bloodlust, unpredictability, humiliation; Phobos and Deimos
+- [[myth-cronus]] — harvest deity, Golden Age, swallowed his children, Milky Way origin
+- [[mercury-planet]] — proximity paradox; Nabu/Hermes/Woden convergence
+- [[venus-planet]] — retrograde rotation; Hesperus/Phosphorus; 8-year cycle
+- [[mars-planet]] — retrograde motion; Phobos and Deimos moons; lost magnetosphere
+- [[jupiter-planet]] — first-formed; gravitational shepherd; 115 moons; Great Red Spot
+- [[saturn-planet]] — 29.5-year orbit; rings; Titan; slowest naked-eye planet
+
+### Mythology × Astronomy — Star Clusters and Lesser Figures
+
+- [[crossing-pleiades]] — **observed** — Seven Sisters pursued by Orion; most globally documented sky crossing
+- [[crossing-sedna]] — **deliberate** — Inuit sea goddess named for cold outer solar system; 2003 naming
+- [[crossing-orion-scorpius]] — **observed** — killer and victim placed on opposite sides of sky
+- [[myth-pleiades]] — Maia (Hermes's mother), pursuit by Orion, lost Pleiad, agricultural calendar
+- [[myth-orion]] — giant hunter, killed by scorpion, pursues the Pleiades eternally
+- [[myth-sedna]] — Inuit sea goddess; severed fingers became marine life; ruler of the deep
+- [[orion-constellation]] — Orion Nebula; winter sky; Betelgeuse supernova candidate
+- [[pleiades-cluster]] — 444 light-years; Matariki; Subaru; Nebra sky disk; oldest astronomical tradition
+- [[sedna-dwarf-planet]] — inner Oort cloud; Planet Nine evidence; 2076 perihelion window
+- [[eris-dwarf-planet]] — caused Pluto's demotion; named for strife; Dysnomia moon
 - [[babylonian-astronomy]] — first functional planetary theory; Mercury as Nabu; empirical not cosmological
 
 ### Cosmology — Origin and Large-Scale Structure
