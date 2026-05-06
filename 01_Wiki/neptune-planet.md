@@ -6,8 +6,9 @@ status: active
 aliases: [Neptune, ice giant, eighth planet, Le Verrier planet]
 type: permanent
 provenance:
-  source: training-knowledge
-  note: "Synthesized from training data; key facts verifiable via Wikipedia/NASA."
+  source_page_id: d02d483b-6b64-459b-9926-b3fa2848e6e5
+  source_url: https://en.wikipedia.org/wiki/Neptune
+  retrieved_at: 2026-05-05
   acting_agent: claude-sonnet-4-6
 ---
 

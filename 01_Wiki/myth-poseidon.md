@@ -6,8 +6,9 @@ status: active
 aliases: [Poseidon, Neptune mythology, Greek sea god, Earth-Shaker]
 type: permanent
 provenance:
-  source: training-knowledge
-  note: "Synthesized from training data; key facts verifiable via Wikipedia/Theogony/Odyssey."
+  source_page_id: 78883b21-0470-4109-9f19-cf6f9253be03
+  source_url: https://en.wikipedia.org/wiki/Poseidon
+  retrieved_at: 2026-05-05
   acting_agent: claude-sonnet-4-6
 ---
 

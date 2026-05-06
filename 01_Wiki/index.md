@@ -47,6 +47,9 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[crossing-neptune-poseidon]] — **observed** — deep blue planet / sea god; found by inference from hidden perturbation; Triton moon chain
 - [[myth-poseidon]] — sea, earthquakes, horses; Earth-Shaker; trident; contest with Athena; father of Triton and Polyphemus
 - [[neptune-planet]] — found by math prediction (1846); strongest winds in Solar System; Triton retrograde moon; 164.8-year orbit
+- [[crossing-pluto-hades]] — **deliberate** — darkness + remoteness / lord of the unseen; excluded god = demoted planet; full underworld moon pantheon
+- [[myth-hades]] — lord of the dead; Plouton (the wealthy); Persephone; Charon; Cerberus; excluded from Olympus
+- [[pluto-dwarf-planet]] — named by 11-year-old Venetia Burney; demoted 2006; New Horizons heart; binary system with Charon; all moons underworld figures
 - [[sirius]] — brightest star; Egyptian Nile calendar (Sopdet/Isis); Greek dog days; Polynesian Great Bird; Qur'an
 
 ### Mythology × Astronomy — The Five Planets (Naked Eye)
