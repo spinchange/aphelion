@@ -29,6 +29,8 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - [[viking-navigation]] — sunstone (Iceland spar) locates Sun in total overcast; latitude sailing; Vinland without a compass
 - [[aboriginal-astronomy]] — dark constellations (Emu in the Sky); ecological calendar; Eta Carinae eruption recorded in oral tradition
 - [[canopus]] — 2nd brightest star; named after a navigator (pilot of Menelaus); Arab navigation reference; NASA spacecraft use it for attitude control
+- [[moon]] — tidal locking; axial stabiliser; lunar distance method for longitude; Apollo 6 landings; calendar across all cultures
+- [[compass]] — lodestone China ~200 BCE; magnetic declination; William Gilbert; corrects celestial nav in overcast; stars → compass → chronometer → GPS
 - [[crossing-mercury-retrograde]] — **false** — Mercury was useless for ancient navigation; retrograde harm deduced from mythology not observation
 
 ### Sky Events — Observation
@@ -87,19 +89,24 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 ### Cosmology — Origin and Large-Scale Structure
 
 - [[milky-way]] — our barred spiral galaxy; Sgr A*; spiral arms; galactic halo; Andromeda collision in 4 Gyr
+- [[andromeda-galaxy]] — nearest large galaxy; 1 trillion stars; Great Debate 1924; Milkdromeda merger in 4.5 Gyr
 - [[big-bang]] — 13.8 Gyr ago; inflation, BBN, recombination, CMB; four pillars; Lambda-CDM
+- [[cosmic-inflation]] — exponential expansion 10⁻³⁶ to 10⁻³² s; solves horizon/flatness/monopole problems; seeds all structure
 - [[cosmic-microwave-background]] — 2.7 K afterglow; released at 380,000 years; Penzias & Wilson 1964; encodes dark matter density
 - [[dark-matter]] — 27% of universal mass-energy; rotation curves, gravitational lensing, CDM
 - [[dark-energy]] — 68% of universal mass-energy; cosmological constant, accelerating expansion
+- [[quasar]] — most luminous persistent objects; accreting supermassive black holes; AGN; Lyman-alpha forest probes
 
 ### Astrophysics — Stellar Processes and Particles
 
 - [[stellar-nucleosynthesis]] — how stars forge elements; B2FH; seeding the interstellar medium
 - [[supernova]] — stellar death; Type Ia standard candles; r-process; cosmic ray acceleration; ISM enrichment
+- [[white-dwarf]] — final state of 97% of stars; Chandrasekhar limit; Sirius B; Type Ia trigger; electron degeneracy
 - [[neutron-star]] — densest stable objects; pulsars; magnetars; gold forged in mergers
 - [[black-hole]] — event horizon; Sgr A*; Hawking radiation; gravitational wave source; no-hair theorem
 - [[gravitational-waves]] — ripples in spacetime; LIGO 2015; GW170817 confirmed gold synthesis; pulsar timing background
 - [[cosmic-ray]] — high-energy particles at near-light-speed; composition, sources, air showers
+- [[nebula]] — emission/reflection/dark/planetary/supernova-remnant; star birth and death; Orion Nebula; Dark Emu
 
 ### Space Regions and Structure
 
@@ -127,6 +134,7 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 ### Exoplanets and the Search for Life
 
 - [[exoplanets]] — thousands known; transit/Doppler/microlensing; habitable zones; biosignatures; JWST atmospheres
+- [[fermi-paradox]] — where is everybody; Drake Equation; Great Filter; SETI; Wow! Signal; Rare Earth vs ahead-of-us filter
 
 ### Space Exploration and Observatories
 

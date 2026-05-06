@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moon — Aphelion Portal</title>
+  <style>
+    /* ── Tokens ──────────────────────────────────────────────────── */
+    :root {
+      --bg:          #121212;
+      --panel:       #1a1a1a;
+      --panel-alt:   #1e1e1e;
+      --panel-deep:  #161616;
+      --text:        #d4d4d4;
+      --text-dim:    #9ca3af;
+      --muted:       #52595f;
+      --line:        #2a2a2a;
+      --accent:      #00bfff;
+      --accent-bg:   rgba(0, 191, 255, 0.06);
+      --accent-glow: rgba(0, 191, 255, 0.18);
+      --danger:      #ff5555;
+      --warn:        #ffcc00;
+      --mono: "Cascadia Code", "JetBrains Mono", "IBM Plex Mono", "Fira Code",
+              "Consolas", "Courier New", monospace;
+      --sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+      --radius: 6px;
+      --shell-max: 1380px;
+    }
+
+    /* ── Reset ───────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    /* ── Layout shell ────────────────────────────────────────────── */
+    .shell {
+      max-width: var(--shell-max);
+      margin: 0 auto;
+      padding: 0 24px 64px;
+    }
+
+    /* ── Topbar ──────────────────────────────────────────────────── */
+    .topbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 0;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .topbar .brand {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .topbar .sep { color: var(--line); }
+    .topbar-search {
+      margin-left: auto;
+      position: relative;
+      min-width: 280px;
+      max-width: 360px;
+      flex: 1 1 280px;
+    }
+
+    /* ── Search ─────────────────────────────────────────────────── */
+    .search-input {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 13px;
+      padding: 10px 12px;
+      outline: none;
+      transition: border-color 120ms ease, box-shadow 120ms ease;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-bg);
+    }
+    .search-input::placeholder { color: var(--muted); }
+    .search-results {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      right: 0;
+      z-index: 20;
+      display: none;
+      background: var(--panel-deep);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.34);
+      overflow: hidden;
+    }
+    .search-results.is-open { display: block; }
+    .search-results-header {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--line);
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .search-results-list { max-height: 420px; overflow-y: auto; }
+    .search-result {
+      display: block;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      color: inherit;
+      text-decoration: none;
+    }
+    .search-result:last-child { border-bottom: none; }
+    .search-result:hover, .search-result:focus {
+      text-decoration: none;
+      background: var(--panel-alt);
+    }
+    .search-result-title {
+      display: block;
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .search-result-meta {
+      display: block;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .search-result-excerpt {
+      display: block;
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.5;
+    }
+    .search-empty {
+      padding: 14px 12px;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    /* ── Metadata Zone ───────────────────────────────────────────── */
+    .metadata-zone {
+      padding: 28px 0 20px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+    }
+    .kicker {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    .note-title {
+      font-family: var(--mono);
+      font-size: clamp(22px, 3.5vw, 38px);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--text);
+      margin: 0 0 18px;
+      letter-spacing: -0.01em;
+    }
+    .note-title::before {
+      content: "# ";
+      color: var(--accent);
+      font-weight: 400;
+    }
+
+    /* Frontmatter pills */
+    .frontmatter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+    .fm-field {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 3px 9px;
+    }
+    .fm-key { color: var(--muted); letter-spacing: 0.06em; }
+    .fm-val { color: var(--text); }
+    .fm-val.status-active   { color: var(--accent); }
+    .fm-val.status-draft    { color: var(--warn); }
+    .fm-val.status-archived { color: var(--muted); }
+
+    /* ── Main layout grid ────────────────────────────────────────── */
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 260px;
+      grid-template-areas: "content graph";
+      gap: 24px;
+      align-items: start;
+    }
+
+    /* ── Content Zone ────────────────────────────────────────────── */
+    .content-zone { grid-area: content; min-width: 0; }
+
+    .content-zone h1,
+    .content-zone h2,
+    .content-zone h3,
+    .content-zone h4,
+    .content-zone h5,
+    .content-zone h6 {
+      font-family: var(--mono);
+      color: var(--text);
+      margin: 1.8em 0 0.5em;
+      line-height: 1.25;
+    }
+    .content-zone h1 { font-size: 1.7em; color: var(--accent); }
+    .content-zone h2 { font-size: 1.3em; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+    .content-zone h3 { font-size: 1.1em; }
+    .content-zone h4 { font-size: 1em; color: var(--text-dim); }
+    .content-zone h5,
+    .content-zone h6 { font-size: 0.9em; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+
+    .content-zone p { margin: 0 0 1em; max-width: 74ch; }
+    .content-zone ul, .content-zone ol { margin: 0 0 1em; padding-left: 1.5em; }
+    .content-zone li { margin-bottom: 0.3em; }
+    .content-zone li > ul, .content-zone li > ol { margin-top: 0.3em; margin-bottom: 0; }
+
+    .content-zone blockquote {
+      margin: 1.2em 0;
+      padding: 10px 16px;
+      border-left: 3px solid var(--accent);
+      background: var(--accent-bg);
+      color: var(--text-dim);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .content-zone blockquote p { margin: 0; max-width: none; }
+
+    .content-zone code {
+      font-family: var(--mono);
+      font-size: 0.88em;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      padding: 1px 5px;
+      color: var(--accent);
+    }
+    .content-zone pre {
+      background: var(--panel-deep);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      overflow-x: auto;
+      margin: 1em 0;
+      font-family: var(--mono);
+      font-size: 0.86em;
+      line-height: 1.55;
+    }
+    .content-zone pre code { background: none; border: none; padding: 0; color: var(--text); }
+
+    .content-zone table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.9em; }
+    .content-zone th {
+      font-family: var(--mono);
+      text-align: left;
+      font-size: 0.82em;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .content-zone td { padding: 7px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .content-zone tr:last-child td { border-bottom: none; }
+    .content-zone tr:hover td { background: var(--panel-alt); }
+    .content-zone hr { border: none; border-top: 1px solid var(--line); margin: 2em 0; }
+    .content-zone strong { color: var(--text); font-weight: 600; }
+    .content-zone em { color: var(--text-dim); font-style: italic; }
+
+    .content-zone a.wikilink {
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent-bg);
+    }
+    .content-zone a.wikilink:hover {
+      background: var(--accent-bg);
+      border-bottom-color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* ── Graph Discovery Zone ────────────────────────────────────── */
+    .graph-zone {
+      grid-area: graph;
+      position: sticky;
+      top: 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .graph-header {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel-alt);
+    }
+    .graph-header .graph-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 6px var(--accent-glow);
+      flex-shrink: 0;
+    }
+    .graph-label {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .graph-body {
+      padding: 10px 0;
+      max-height: 72vh;
+      overflow-y: auto;
+    }
+    .graph-body::-webkit-scrollbar { width: 4px; }
+    .graph-body::-webkit-scrollbar-track { background: transparent; }
+    .graph-body::-webkit-scrollbar-thumb { background: var(--line); border-radius: 2px; }
+    .graph-neighbors { font-family: var(--mono); font-size: 12px; }
+    .graph-neighbors ul { list-style: none; margin: 0; padding: 0; }
+    .graph-neighbors li { border-bottom: 1px solid var(--line); }
+    .graph-neighbors li:last-child { border-bottom: none; }
+    .graph-neighbors a, .graph-neighbors li {
+      display: block;
+      padding: 7px 14px;
+      color: var(--text-dim);
+      transition: background 0.1s, color 0.1s;
+    }
+    .graph-neighbors a { text-decoration: none; }
+    .graph-neighbors a:hover, .graph-neighbors li:hover {
+      background: var(--accent-bg);
+      color: var(--accent);
+    }
+    .graph-neighbors a::before { content: "→ "; color: var(--muted); }
+    .graph-neighbors a:hover::before { color: var(--accent); }
+    .graph-neighbors .graph-section-label {
+      display: block;
+      padding: 8px 14px 4px;
+      font-size: 9px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      background: var(--panel-deep);
+    }
+    .graph-neighbors .graph-section-label::before { content: none; }
+    .graph-empty {
+      padding: 16px 14px;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    /* ── Log Entries ────────────────────────────────────────────── */
+    .log-entry { display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+    .log-entry:last-child { border-bottom: none; }
+    .log-time { font-family: var(--mono); font-size: 12px; color: var(--accent); flex-shrink: 0; width: 140px; }
+    .log-content { font-size: 14px; color: var(--text-dim); flex-grow: 1; }
+
+    /* ── Responsive ──────────────────────────────────────────────── */
+    @media (max-width: 820px) {
+      .layout { grid-template-columns: 1fr; grid-template-areas: "content" "graph"; }
+      .graph-zone { position: static; }
+      .topbar { flex-wrap: wrap; }
+      .topbar-search { min-width: 100%; max-width: none; }
+    }
+    @media (max-width: 540px) {
+      .shell { padding: 0 14px 40px; }
+      .note-title { font-size: 20px; }
+      .search-results { position: static; margin-top: 10px; }
+    }
+
+    /* ── Print ───────────────────────────────────────────────────── */
+    @media print {
+      body { background: #fff; color: #111; }
+      .graph-zone { display: none; }
+      .topbar { display: none; }
+      .note-title { color: #111; }
+      .note-title::before { color: #555; }
+      a { color: #0066cc; }
+      .content-zone code { background: #f4f4f4; border-color: #ccc; color: #111; }
+      .content-zone pre { background: #f4f4f4; border-color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+
+    <!-- ── Topbar ─────────────────────────────────────────────── -->
+    <nav class="topbar">
+      <span class="brand">APHELION</span>
+      <span class="sep">/</span>
+      <span>PORTAL</span>
+      <span class="sep">/</span>
+      <a href="index.html">INDEX</a>
+      <span class="sep">/</span>
+      <span>Moon</span>
+      <div class="topbar-search">
+        <input
+          id="portal-search"
+          class="search-input"
+          type="search"
+          placeholder="Search notes, aliases, and excerpts…"
+          autocomplete="off"
+          aria-label="Search portal notes">
+        <div id="portal-search-results" class="search-results" aria-live="polite"></div>
+      </div>
+    </nav>
+
+    <!-- ── Zone 1: Metadata ────────────────────────────────────── -->
+    <header class="metadata-zone">
+      <div class="kicker">NOTE</div>
+      <h1 class="note-title">Moon</h1>
+      <div class="frontmatter">
+        <span class="fm-field"><span class="fm-key">retrieved_at</span><span class="fm-val">2026-05-06</span></span>
+<span class="fm-field"><span class="fm-key">acting_agent</span><span class="fm-val">claude-sonnet-4-6</span></span>
+<span class="fm-field"><span class="fm-key">date</span><span class="fm-val">2026-05-06</span></span>
+<span class="fm-field"><span class="fm-key">source_url</span><span class="fm-val">https://en.wikipedia.org/wiki/Moon</span></span>
+<span class="fm-field"><span class="fm-key">aliases</span><span class="fm-val">Moon, Luna, Earth&#39;s moon, natural satellite</span></span>
+<span class="fm-field"><span class="fm-key">provenance</span><span class="fm-val"></span></span>
+<span class="fm-field"><span class="fm-key">source_page_id</span><span class="fm-val">6518e16e-f8ed-4e54-8a39-afbc27241c42</span></span>
+<span class="fm-field"><span class="fm-key">title</span><span class="fm-val">Moon</span></span>
+<span class="fm-field"><span class="fm-key">author</span><span class="fm-val">claude-sonnet-4-6</span></span>
+<span class="fm-field"><span class="fm-key">status</span><span class="fm-val status-active">active</span></span>
+<span class="fm-field"><span class="fm-key">type</span><span class="fm-val">permanent</span></span>
+      </div>
+    </header>
+
+    <!-- ── Zones 2 + 3: Content + Graph (grid) ─────────────────── -->
+    <div class="layout">
+      <main class="content-zone" id="content">
+        <h1>Moon</h1>
+<p>Earth&#39;s only natural satellite — the fifth largest moon in the solar system, the most studied extraterrestrial body, and the only world beyond Earth where humans have stood. The Moon shapes Earth&#39;s tides, stabilises its axial tilt, and has structured human calendars, navigation, mythology, and religion across every culture.</p>
+<h2>Key Properties</h2>
+<table>
+<thead><tr>
+<th>Property</th>
+<th>Value</th>
+</tr></thead><tbody>
+<tr>
+<td>Mean distance</td>
+<td>384,400 km (varies: 356,500–406,700 km)</td>
+</tr>
+<tr>
+<td>Diameter</td>
+<td>3,474 km (~27% of Earth)</td>
+</tr>
+<tr>
+<td>Mass</td>
+<td>7.342 &#215; 10&#178;&#178; kg (1.2% of Earth)</td>
+</tr>
+<tr>
+<td>Surface gravity</td>
+<td>0.165 g</td>
+</tr>
+<tr>
+<td>Orbital period</td>
+<td>27.32 days (sidereal); 29.53 days (synodic)</td>
+</tr>
+<tr>
+<td>Rotation period</td>
+<td>27.32 days (tidally locked)</td>
+</tr>
+<tr>
+<td>Surface temperature</td>
+<td>−173&#176;C (night) to +127&#176;C (day)</td>
+</tr>
+<tr>
+<td>Recession rate</td>
+<td>~3.8 cm/year (moving away from Earth)</td>
+</tr>
+</tbody>
+</table>
+<h2>Origin — The Giant Impact</h2>
+<p>The leading hypothesis: ~4.5 billion years ago, a Mars-sized body called <strong>Theia</strong> collided with the proto-Earth at a glancing angle. The impact vaporised Theia and much of Earth&#39;s mantle; debris was flung into orbit and coalesced into the Moon within thousands of years.</p>
+<p>Evidence: the Moon&#39;s bulk composition closely matches Earth&#39;s mantle; its core is small (the iron-rich cores of both bodies merged into Earth); lunar rocks returned by Apollo are nearly identical isotopically to Earth rocks — distinct from meteorites from elsewhere.</p>
+<p>The impact also tilted Earth&#39;s axis to ~23.5&#176;, setting up the seasons.</p>
+<h2>Tidal Locking</h2>
+<p>The Moon rotates exactly once per orbit — its rotation period equals its orbital period. This <strong>synchronous rotation</strong> means the near side always faces Earth; the far side (not &quot;dark side&quot; — it receives the same sunlight) was unknown until Soviet Luna 3 photographed it in 1959.</p>
+<p>Tidal locking results from tidal friction: Earth&#39;s gravity raises a bulge on the Moon; as the Moon rotated in the past, this bulge was dragged slightly ahead of the Earth-Moon line, creating a torque that slowed rotation until it matched the orbital period.</p>
+<p>The same process is slowly slowing Earth&#39;s own rotation. Days were shorter billions of years ago; the Moon is slowly receding (~3.8 cm/year) as the system loses angular momentum to tidal friction.</p>
+<h2>The Moon&#39;s Role in Earth&#39;s Stability</h2>
+<p>The Moon stabilises Earth&#39;s <strong>axial tilt</strong> at ~23.5&#176;, preventing the chaotic wobble that models predict for moonless Earth (potentially swinging between ~0&#176; and 85&#176;). This stability moderates climate variation over geological time — a moonless Earth might have far more dramatic climate swings, with implications for the evolution of complex life. See <a href="fermi-paradox.html" class="wikilink">fermi-paradox</a> for the Rare Earth argument this connects to.</p>
+<h2>Navigation</h2>
+<p>The Moon was fundamental to navigation before GPS:</p>
+<p><strong>Latitude</strong> — the Moon&#39;s altitude above the horizon, like any celestial body, encodes latitude for an observer who knows the Moon&#39;s declination.</p>
+<p><strong>Longitude — the Lunar Distance method</strong> — before accurate chronometers, sailors measured the angle between the Moon and a reference star (lunar distance). Comparing this to tabulated predicted angles gave Greenwich time, and thus longitude. This was the primary longitude method from ~1767 until Harrison&#39;s chronometer became affordable. See <a href="longitude-problem.html" class="wikilink">longitude-problem</a> and <a href="celestial-navigation.html" class="wikilink">celestial-navigation</a>.</p>
+<p><strong>Calendar</strong> — virtually every ancient culture used the lunar cycle for timekeeping. The Islamic calendar remains strictly lunar (12 months of 29–30 days = 354-day year, cycling through seasons over 33 years). The Hebrew calendar is lunisolar. The Christian Easter and Islamic Ramadan are determined by lunar phases.</p>
+<h2>Apollo — Six Landings</h2>
+<p>Twelve humans walked on the Moon between July 1969 and December 1972:</p>
+<table>
+<thead><tr>
+<th>Mission</th>
+<th>Date</th>
+<th>Landing site</th>
+</tr></thead><tbody>
+<tr>
+<td>Apollo 11</td>
+<td>July 20, 1969</td>
+<td>Sea of Tranquility</td>
+</tr>
+<tr>
+<td>Apollo 12</td>
+<td>Nov 19, 1969</td>
+<td>Ocean of Storms</td>
+</tr>
+<tr>
+<td>Apollo 14</td>
+<td>Feb 5, 1971</td>
+<td>Fra Mauro</td>
+</tr>
+<tr>
+<td>Apollo 15</td>
+<td>July 30, 1971</td>
+<td>Hadley-Apennine</td>
+</tr>
+<tr>
+<td>Apollo 16</td>
+<td>Apr 21, 1972</td>
+<td>Descartes Highlands</td>
+</tr>
+<tr>
+<td>Apollo 17</td>
+<td>Dec 11, 1972</td>
+<td>Taurus-Littrow</td>
+</tr>
+</tbody>
+</table>
+<p>Apollo 17 remains the last crewed lunar landing. The programme returned <strong>382 kg of samples</strong> — rocks now ranging up to 4.5 billion years old, providing a chronological anchor for the inner solar system&#39;s impact history.</p>
+<h2>Surface Geology</h2>
+<p><strong>Maria</strong> (Latin: seas) — dark basaltic plains formed by ancient volcanic flooding 3–3.5 billion years ago. Named by early astronomers who mistook them for seas: Mare Tranquillitatis, Mare Imbrium, Oceanus Procellarum.</p>
+<p><strong>Highlands</strong> — lighter, older, heavily cratered terrain, 4+ billion years old, composed of anorthosite (calcium-rich feldspar).</p>
+<p><strong>Water ice</strong> — confirmed in permanently shadowed craters near the poles by LCROSS (2009), which intentionally impacted a polar crater and detected water in the debris plume. These ice deposits may support future lunar bases.</p>
+<h2>Mythology</h2>
+<p>The Moon appears in every mythological tradition:</p>
+<ul>
+<li><strong>Greek</strong>: Selene (Moon goddess); Artemis (goddess of the hunt, associated with the Moon); Hecate (dark Moon)
+</li>
+<li><strong>Roman</strong>: Luna; Diana
+</li>
+<li><strong>Egyptian</strong>: Thoth (god of wisdom, scribe of the gods, associated with the Moon)
+</li>
+<li><strong>Norse</strong>: M&#225;ni (the Moon personified, driving a chariot across the sky, chased by the wolf Hati)
+</li>
+<li><strong>Islamic</strong>: The crescent moon is the symbol of Islam; the lunar calendar governs Ramadan, Eid, and Hajj
+</li>
+</ul>
+<p>The word <strong>lunatic</strong> derives from *luna* — the belief that the full Moon caused madness. Month, Monday (*Moon&#39;s day*), and menstruation all share the ~29.5-day cycle.</p>
+      </main>
+      <aside class="graph-zone" aria-label="Connected nodes">
+        <div class="graph-header">
+          <span class="graph-dot"></span>
+          <span class="graph-label">Connected Nodes</span>
+        </div>
+        <div class="graph-body">
+          <div class="graph-neighbors">
+            <span class="graph-section-label">Links To This Note</span>
+<ul>
+<li><a href="index.html" class="">index</a></li>
+</ul>
+<span class="graph-section-label">Links From This Note</span>
+<ul>
+<li><a href="fermi-paradox.html" class="">fermi-paradox</a></li>
+<li><a href="longitude-problem.html" class="">longitude-problem</a></li>
+<li><a href="celestial-navigation.html" class="">celestial-navigation</a></li>
+</ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <script>
+    (() => {
+      const input = document.getElementById('portal-search');
+      const results = document.getElementById('portal-search-results');
+      if (!input || !results) return;
+
+      let indexPromise = null;
+      let notes = [];
+
+      function ensureIndex() {
+        if (!indexPromise) {
+          indexPromise = fetch('search-index.json')
+            .then(r => { if (!r.ok) throw new Error('fetch failed'); return r.json(); })
+            .then(data => { notes = Array.isArray(data) ? data : []; return notes; })
+            .catch(() => { notes = []; return notes; });
+        }
+        return indexPromise;
+      }
+
+      function escapeHtml(v) {
+        return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      }
+
+      function scoreNote(note, query) {
+        const title = (note.title || '').toLowerCase();
+        const aliases = Array.isArray(note.aliases) ? note.aliases.join(' ').toLowerCase() : '';
+        const search = (note.search || '').toLowerCase();
+        let score = 0;
+        if (title === query) score += 120;
+        else if (title.startsWith(query)) score += 80;
+        else if (title.includes(query)) score += 50;
+        if (aliases.includes(query)) score += 25;
+        if (search.includes(query)) score += 10;
+        return score;
+      }
+
+      function renderResults(matches, query) {
+        if (!query) { results.classList.remove('is-open'); results.innerHTML = ''; return; }
+        let html = `<div class="search-results-header">${matches.length} result${matches.length === 1 ? '' : 's'}</div>`;
+        if (!matches.length) {
+          html += '<div class="search-empty">No notes matched that query.</div>';
+          results.innerHTML = html; results.classList.add('is-open'); return;
+        }
+        html += '<div class="search-results-list">';
+        for (const note of matches.slice(0, 8)) {
+          const meta = [note.type, note.status].filter(Boolean).join(' / ');
+          html += `<a class="search-result" href="${escapeHtml(note.url)}">
+            <span class="search-result-title">${escapeHtml(note.title || note.note || '')}</span>
+            <span class="search-result-meta">${escapeHtml(meta)}</span>
+            <span class="search-result-excerpt">${escapeHtml(note.excerpt || '')}</span>
+          </a>`;
+        }
+        html += '</div>';
+        results.innerHTML = html; results.classList.add('is-open');
+      }
+
+      async function handleQuery() {
+        const query = input.value.trim().toLowerCase();
+        if (!query) { renderResults([], ''); return; }
+        await ensureIndex();
+        const matches = notes
+          .map(note => ({ note, score: scoreNote(note, query) }))
+          .filter(item => item.score > 0)
+          .sort((a, b) => b.score - a.score || (a.note.title || '').localeCompare(b.note.title || ''))
+          .map(item => item.note);
+        renderResults(matches, query);
+      }
+
+      input.addEventListener('focus', () => { void ensureIndex(); });
+      input.addEventListener('input', () => { void handleQuery(); });
+      document.addEventListener('keydown', event => {
+        if (event.key === '/' && document.activeElement !== input) { event.preventDefault(); input.focus(); }
+        if (event.key === 'Escape') { results.classList.remove('is-open'); }
+      });
+      document.addEventListener('click', event => {
+        if (!results.contains(event.target) && event.target !== input) { results.classList.remove('is-open'); }
+      });
+    })();
+  </script>
+</body>
+</html>
