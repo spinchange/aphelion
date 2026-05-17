@@ -17,21 +17,23 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 ## Clusters
 
-### Navigation — Human × Sky
+### Navigation - Human x Sky
 
-- [[celestial-navigation]] — latitude trivial (measure Polaris); longitude hard (needed a clock); 57 navigational stars; no planets
-- [[polynesian-navigation]] — star paths; 150 stars; wave/swell piloting; frigatebird; Marshall Islands stick charts; Tupaia
-- [[islamic-astronomy]] — preserved Greek knowledge; Arabic star names (Aldebaran, Rigel, Vega...); astrolabe; prayer times drove precision
-- [[astrolabe]] — "star-taker"; 1,000 uses (al-Sufi); latitude, time, qibla; bridge from antiquity to Age of Discovery
-- [[longitude-problem]] — Earth turns 1° per 4 minutes; Harrison's H-4 chronometer (1762); £20,000 prize; GPS is its heir
-- [[polaris]] — current North Star; Thuban was pole star 2750 BC; precession changes it every ~26,000 years; Polaris 2.5× brighter than in Ptolemy's time
-- [[southern-cross]] — navigation reference for Southern Hemisphere; 5 national flags; Coalsack = Dark Emu's head
-- [[viking-navigation]] — sunstone (Iceland spar) locates Sun in total overcast; latitude sailing; Vinland without a compass
-- [[aboriginal-astronomy]] — dark constellations (Emu in the Sky); ecological calendar; Eta Carinae eruption recorded in oral tradition
-- [[canopus]] — 2nd brightest star; named after a navigator (pilot of Menelaus); Arab navigation reference; NASA spacecraft use it for attitude control
-- [[moon]] — tidal locking; axial stabiliser; lunar distance method for longitude; Apollo 6 landings; calendar across all cultures
-- [[compass]] — lodestone China ~200 BCE; magnetic declination; William Gilbert; corrects celestial nav in overcast; stars → compass → chronometer → GPS
-- [[crossing-mercury-retrograde]] — **false** — Mercury was useless for ancient navigation; retrograde harm deduced from mythology not observation
+- [[celestial-navigation]] - latitude trivial (measure Polaris); longitude hard (needed a clock); 57 navigational stars; no planets
+- [[polynesian-navigation]] - star paths; 150 stars; wave/swell piloting; frigatebird; Marshall Islands stick charts; Tupaia
+- [[islamic-astronomy]] - preserved Greek knowledge; Arabic star names (Aldebaran, Rigel, Vega...); astrolabe; prayer times drove precision
+- [[astrolabe]] - "star-taker"; 1,000 uses (al-Sufi); latitude, time, qibla; bridge from antiquity to Age of Discovery
+- [[longitude-problem]] - Earth turns 1° per 4 minutes; Harrison's H-4 chronometer (1762); £20,000 prize; GPS is its heir
+- [[polaris]] - current North Star; Thuban was pole star 2750 BC; precession changes it every ~26,000 years; Polaris 2.5x brighter than in Ptolemy's time
+- [[southern-cross]] - navigation reference for Southern Hemisphere; 5 national flags; Coalsack = Dark Emu's head
+- [[viking-navigation]] - sunstone (Iceland spar) locates Sun in total overcast; latitude sailing; Vinland without a compass
+- [[aboriginal-astronomy]] - dark constellations (Emu in the Sky); ecological calendar; Eta Carinae eruption recorded in oral tradition
+- [[canopus]] - 2nd brightest star; named after a navigator (pilot of Menelaus); Arab navigation reference; NASA spacecraft use it for attitude control
+- [[moon]] - tidal locking; axial stabiliser; lunar distance method for longitude; Apollo 6 landings; calendar across all cultures
+- [[compass]] - lodestone China ~200 BCE; magnetic declination; William Gilbert; corrects celestial nav in overcast; stars → compass → chronometer → GPS
+- [[dead-reckoning]] - start from a fix, advance by course and speed; backbone of ocean navigation for 500 years; errors compound until reset by celestial fix
+- [[sextant]] - replaced the astrolabe; double-reflection principle handles ship motion; 0.1 arcminute accuracy; still standard naval backup
+- [[crossing-mercury-retrograde]] - **false** - Mercury was useless for ancient navigation; retrograde harm deduced from mythology not observation
 
 ### Sky Events — Observation
 
@@ -41,18 +43,21 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 - [[iau-naming-conventions]] — the structured mythology-per-orbital-class system built into planetary science
 
-### Mythology × Astronomy — Beyond the Naked Eye
+### Mythology x Astronomy - Beyond the Naked Eye
 
-- [[crossing-uranus-ouranos]] — **observed** — primordial formless sky / first planet beyond the known cosmos; Aphrodite chain
-- [[myth-ouranos]] — primordial sky itself; castrated by Cronus; Aphrodite born from sea foam; recedes to empty sky
-- [[uranus-planet]] — first telescopic planet; 97.77° tilt; sideways seasons; Shakespeare moon names; coldest atmosphere
-- [[crossing-neptune-poseidon]] — **observed** — deep blue planet / sea god; found by inference from hidden perturbation; Triton moon chain
-- [[myth-poseidon]] — sea, earthquakes, horses; Earth-Shaker; trident; contest with Athena; father of Triton and Polyphemus
-- [[neptune-planet]] — found by math prediction (1846); strongest winds in Solar System; Triton retrograde moon; 164.8-year orbit
-- [[crossing-pluto-hades]] — **deliberate** — darkness + remoteness / lord of the unseen; excluded god = demoted planet; full underworld moon pantheon
-- [[myth-hades]] — lord of the dead; Plouton (the wealthy); Persephone; Charon; Cerberus; excluded from Olympus
-- [[pluto-dwarf-planet]] — named by 11-year-old Venetia Burney; demoted 2006; New Horizons heart; binary system with Charon; all moons underworld figures
-- [[sirius]] — brightest star; Egyptian Nile calendar (Sopdet/Isis); Greek dog days; Polynesian Great Bird; Qur'an
+- [[crossing-uranus-ouranos]] - **observed** - primordial formless sky / first planet beyond the known cosmos; Aphrodite chain
+- [[myth-ouranos]] - primordial sky itself; castrated by Cronus; Aphrodite born from sea foam; recedes to empty sky
+- [[uranus-planet]] - first telescopic planet; 97.77° tilt; sideways seasons; Shakespeare moon names; coldest atmosphere
+- [[crossing-neptune-poseidon]] - **observed** - deep blue planet / sea god; found by inference from hidden perturbation; Triton moon chain
+- [[myth-poseidon]] - sea, earthquakes, horses; Earth-Shaker; trident; contest with Athena; father of Triton and Polyphemus
+- [[neptune-planet]] - found by math prediction (1846); strongest winds in Solar System; Triton retrograde moon; 164.8-year orbit
+- [[crossing-pluto-hades]] - **deliberate** - darkness + remoteness / lord of the unseen; excluded god = demoted planet; full underworld moon pantheon
+- [[myth-hades]] - lord of the dead; Plouton (the wealthy); Persephone; Charon; Cerberus; excluded from Olympus
+- [[pluto-dwarf-planet]] - named by 11-year-old Venetia Burney; demoted 2006; New Horizons heart; binary system with Charon; all moons underworld figures
+- [[crossing-eris-eris]] - **deliberate** - goddess of strife named for causing the Trojan War / dwarf planet named for causing Pluto's demotion; most on-the-nose naming in the solar system
+- [[myth-eris]] - goddess of discord; apple of discord; Judgment of Paris; Trojan War causal chain; Hesiod's two Erises
+- [[eris-dwarf-planet]] - caused Pluto's demotion; named for strife; Dysnomia moon
+- [[sirius]] - brightest star; Egyptian Nile calendar (Sopdet/Isis); Greek dog days; Polynesian Great Bird; Qur'an
 
 ### Mythology × Astronomy — The Five Planets (Naked Eye)
 
@@ -138,12 +143,15 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 
 ### Space Exploration and Observatories
 
-- [[voyager-program]] — twin 1977 spacecraft; Grand Tour; heliopause crossings; Pale Blue Dot; current status
-- [[parker-solar-probe]] — first spacecraft in the corona; magnetic switchbacks; solar wind origin; launched 2018
-- [[james-webb-space-telescope]] — infrared time machine; 13.5 Gyr lookback; L2 orbit; first light 2022
-- [[hubble-space-telescope]] — flawed mirror fixed by spacewalk; deep fields; dark energy; Hubble tension; 35+ years
-- [[new-horizons]] — first Pluto flyby 2015; Tombaugh Regio heart; Arrokoth contact binary; most distant object visited
-- [[cassini-huygens]] — 13 years at Saturn; Huygens on Titan; Enceladus ocean; ring age; Grand Finale 2017
+- [[voyager-program]] - twin 1977 spacecraft; Grand Tour; heliopause crossings; Pale Blue Dot; current status
+- [[parker-solar-probe]] - first spacecraft in the corona; magnetic switchbacks; solar wind origin; launched 2018
+- [[james-webb-space-telescope]] - infrared time machine; 13.5 Gyr lookback; L2 orbit; first light 2022
+- [[hubble-space-telescope]] - flawed mirror fixed by spacewalk; deep fields; dark energy; Hubble tension; 35+ years
+- [[new-horizons]] - first Pluto flyby 2015; Tombaugh Regio heart; Arrokoth contact binary; most distant object visited
+- [[cassini-huygens]] - 13 years at Saturn; Huygens on Titan; Enceladus ocean; ring age; Grand Finale 2017
+- [[event-horizon-telescope]] - Earth-sized VLBI array; M87* image 2019; Sgr A* image 2022; confirms GR in strong-field regime
+- [[titan-moon]] - only moon with dense atmosphere; methane lakes and rain cycle; Huygens landed 2005; Dragonfly mission 2034
+- [[enceladus-moon]] - active geysers; global subsurface ocean; hydrothermal vents; phosphates confirmed 2023; best life candidate in solar system
 
 ### Space Law and Policy
 
@@ -172,4 +180,5 @@ Aphelion is the farthest point from the sun in an orbit — this vault collects 
 - 2026-05-06: Outer solar system mythology — neptune-planet, myth-poseidon, crossing-neptune-poseidon, pluto-dwarf-planet, myth-hades, crossing-pluto-hades (Neptune/Pluto/Poseidon/Hades/Triton Wikipedia crawled)
 - 2026-05-06: Space exploration trio — hubble-space-telescope, new-horizons, cassini-huygens (Wikipedia sourced; 92+84+27 chunks)
 - 2026-05-06: 100 pages reached — white-dwarf, nebula, andromeda-galaxy, quasar, cosmic-inflation, fermi-paradox, moon, compass (all Wikipedia sourced)
-- 2026-05-06: [[claude-100-milestone-handoff-2026-05-06]] — session handoff with cluster map, crawl patterns, and next directions
+- 2026-05-06: [[claude-100-milestone-handoff-2026-05-06]] - session handoff with cluster map, crawl patterns, and next directions
+- 2026-05-17: Mythology chain completed - [[myth-eris]], [[crossing-eris-eris]]; navigation depth - [[dead-reckoning]], [[sextant]]; Saturn moons - [[titan-moon]], [[enceladus-moon]]; observatory - [[event-horizon-telescope]]
