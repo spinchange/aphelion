@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>aphelion Sitemap</title>
+  </head>
+  <body>
+  <outline text="aphelion">
+    <outline text="Australian Aboriginal Astronomy" type="link" url="https://spinchange.github.io/aphelion/aboriginal-astronomy.html" />
+    <outline text="Andromeda Galaxy" type="link" url="https://spinchange.github.io/aphelion/andromeda-galaxy.html" />
+    <outline text="Astrolabe" type="link" url="https://spinchange.github.io/aphelion/astrolabe.html" />
+    <outline text="Babylonian Astronomy" type="link" url="https://spinchange.github.io/aphelion/babylonian-astronomy.html" />
+    <outline text="Big Bang" type="link" url="https://spinchange.github.io/aphelion/big-bang.html" />
+    <outline text="Black Hole" type="link" url="https://spinchange.github.io/aphelion/black-hole.html" />
+    <outline text="Canopus" type="link" url="https://spinchange.github.io/aphelion/canopus.html" />
+    <outline text="Cassini-Huygens" type="link" url="https://spinchange.github.io/aphelion/cassini-huygens.html" />
+    <outline text="Celestial Navigation" type="link" url="https://spinchange.github.io/aphelion/celestial-navigation.html" />
+    <outline text="Handoff — 100-Page Milestone" type="link" url="https://spinchange.github.io/aphelion/claude-100-milestone-handoff-2026-05-06.html" />
+    <outline text="Compass" type="link" url="https://spinchange.github.io/aphelion/compass.html" />
+    <outline text="Coronal Mass Ejection" type="link" url="https://spinchange.github.io/aphelion/coronal-mass-ejection.html" />
+    <outline text="Cosmic Inflation" type="link" url="https://spinchange.github.io/aphelion/cosmic-inflation.html" />
+    <outline text="Cosmic Microwave Background" type="link" url="https://spinchange.github.io/aphelion/cosmic-microwave-background.html" />
+    <outline text="Cosmic Ray" type="link" url="https://spinchange.github.io/aphelion/cosmic-ray.html" />
+    <outline text="Crossing: Jupiter / Zeus" type="link" url="https://spinchange.github.io/aphelion/crossing-jupiter-zeus.html" />
+    <outline text="Crossing: Mars / Ares" type="link" url="https://spinchange.github.io/aphelion/crossing-mars-ares.html" />
+    <outline text="Crossing: Mercury / Hermes" type="link" url="https://spinchange.github.io/aphelion/crossing-mercury-hermes.html" />
+    <outline text="Crossing: Mercury Retrograde — A False Crossing" type="link" url="https://spinchange.github.io/aphelion/crossing-mercury-retrograde.html" />
+    <outline text="Crossing: Neptune / Poseidon" type="link" url="https://spinchange.github.io/aphelion/crossing-neptune-poseidon.html" />
+    <outline text="Crossing: Orion / Scorpius" type="link" url="https://spinchange.github.io/aphelion/crossing-orion-scorpius.html" />
+    <outline text="Crossing: The Pleiades" type="link" url="https://spinchange.github.io/aphelion/crossing-pleiades.html" />
+    <outline text="Crossing: Pluto / Hades" type="link" url="https://spinchange.github.io/aphelion/crossing-pluto-hades.html" />
+    <outline text="Crossing: Saturn / Cronus" type="link" url="https://spinchange.github.io/aphelion/crossing-saturn-cronus.html" />
+    <outline text="Crossing: Sedna" type="link" url="https://spinchange.github.io/aphelion/crossing-sedna.html" />
+    <outline text="Crossing: Uranus / Ouranos" type="link" url="https://spinchange.github.io/aphelion/crossing-uranus-ouranos.html" />
+    <outline text="Crossing: Venus / Aphrodite" type="link" url="https://spinchange.github.io/aphelion/crossing-venus-aphrodite.html" />
+    <outline text="Dark Energy" type="link" url="https://spinchange.github.io/aphelion/dark-energy.html" />
+    <outline text="Dark Matter" type="link" url="https://spinchange.github.io/aphelion/dark-matter.html" />
+    <outline text="Eris (Dwarf Planet)" type="link" url="https://spinchange.github.io/aphelion/eris-dwarf-planet.html" />
+    <outline text="Exoplanets" type="link" url="https://spinchange.github.io/aphelion/exoplanets.html" />
+    <outline text="Fermi Paradox" type="link" url="https://spinchange.github.io/aphelion/fermi-paradox.html" />
+    <outline text="Geospace" type="link" url="https://spinchange.github.io/aphelion/geospace.html" />
+    <outline text="Gravitational Waves" type="link" url="https://spinchange.github.io/aphelion/gravitational-waves.html" />
+    <outline text="Heliopause" type="link" url="https://spinchange.github.io/aphelion/heliopause.html" />
+    <outline text="Heliophysics" type="link" url="https://spinchange.github.io/aphelion/heliophysics.html" />
+    <outline text="Heliosphere" type="link" url="https://spinchange.github.io/aphelion/heliosphere.html" />
+    <outline text="Hubble Space Telescope" type="link" url="https://spinchange.github.io/aphelion/hubble-space-telescope.html" />
+    <outline text="IAU Naming Conventions" type="link" url="https://spinchange.github.io/aphelion/iau-naming-conventions.html" />
+    <outline text="Aphelion Index" type="link" url="https://spinchange.github.io/aphelion/index.html" />
+    <outline text="Interplanetary Medium" type="link" url="https://spinchange.github.io/aphelion/interplanetary-medium.html" />
+    <outline text="Interstellar Medium" type="link" url="https://spinchange.github.io/aphelion/interstellar-medium.html" />
+    <outline text="Islamic Astronomy" type="link" url="https://spinchange.github.io/aphelion/islamic-astronomy.html" />
+    <outline text="James Webb Space Telescope" type="link" url="https://spinchange.github.io/aphelion/james-webb-space-telescope.html" />
+    <outline text="Jupiter (Planet)" type="link" url="https://spinchange.github.io/aphelion/jupiter-planet.html" />
+    <outline text="Kármán Line" type="link" url="https://spinchange.github.io/aphelion/karman-line.html" />
+    <outline text="Kuiper Belt" type="link" url="https://spinchange.github.io/aphelion/kuiper-belt.html" />
+    <outline text="Local Bubble" type="link" url="https://spinchange.github.io/aphelion/local-bubble.html" />
+    <outline text="Aphelion Session Log" type="link" url="https://spinchange.github.io/aphelion/log.html" />
+    <outline text="The Longitude Problem" type="link" url="https://spinchange.github.io/aphelion/longitude-problem.html" />
+    <outline text="Mars (Planet)" type="link" url="https://spinchange.github.io/aphelion/mars-planet.html" />
+    <outline text="Mercury (Planet)" type="link" url="https://spinchange.github.io/aphelion/mercury-planet.html" />
+    <outline text="Milky Way" type="link" url="https://spinchange.github.io/aphelion/milky-way.html" />
+    <outline text="Moon" type="link" url="https://spinchange.github.io/aphelion/moon.html" />
+    <outline text="Aphrodite (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-aphrodite.html" />
+    <outline text="Ares (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-ares.html" />
+    <outline text="Cronus (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-cronus.html" />
+    <outline text="Hades (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-hades.html" />
+    <outline text="Hermes (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-hermes.html" />
+    <outline text="Orion (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-orion.html" />
+    <outline text="Ouranos (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-ouranos.html" />
+    <outline text="Pleiades (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-pleiades.html" />
+    <outline text="Poseidon (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-poseidon.html" />
+    <outline text="Sedna (Inuit Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-sedna.html" />
+    <outline text="Zeus (Mythology)" type="link" url="https://spinchange.github.io/aphelion/myth-zeus.html" />
+    <outline text="Nebula" type="link" url="https://spinchange.github.io/aphelion/nebula.html" />
+    <outline text="Neptune (Planet)" type="link" url="https://spinchange.github.io/aphelion/neptune-planet.html" />
+    <outline text="Neutron Star" type="link" url="https://spinchange.github.io/aphelion/neutron-star.html" />
+    <outline text="New Horizons" type="link" url="https://spinchange.github.io/aphelion/new-horizons.html" />
+    <outline text="Oort Cloud" type="link" url="https://spinchange.github.io/aphelion/oort-cloud.html" />
+    <outline text="Orion (Constellation)" type="link" url="https://spinchange.github.io/aphelion/orion-constellation.html" />
+    <outline text="Outer Space Treaty" type="link" url="https://spinchange.github.io/aphelion/outer-space-treaty.html" />
+    <outline text="Outer Space" type="link" url="https://spinchange.github.io/aphelion/outer-space.html" />
+    <outline text="Parker Solar Probe" type="link" url="https://spinchange.github.io/aphelion/parker-solar-probe.html" />
+    <outline text="Pleiades Star Cluster" type="link" url="https://spinchange.github.io/aphelion/pleiades-cluster.html" />
+    <outline text="Pluto (Dwarf Planet)" type="link" url="https://spinchange.github.io/aphelion/pluto-dwarf-planet.html" />
+    <outline text="Polaris" type="link" url="https://spinchange.github.io/aphelion/polaris.html" />
+    <outline text="Polynesian Navigation" type="link" url="https://spinchange.github.io/aphelion/polynesian-navigation.html" />
+    <outline text="Quasar" type="link" url="https://spinchange.github.io/aphelion/quasar.html" />
+    <outline text="Saturn (Planet)" type="link" url="https://spinchange.github.io/aphelion/saturn-planet.html" />
+    <outline text="Sedna (Dwarf Planet)" type="link" url="https://spinchange.github.io/aphelion/sedna-dwarf-planet.html" />
+    <outline text="Sirius" type="link" url="https://spinchange.github.io/aphelion/sirius.html" />
+    <outline text="Solar Corona" type="link" url="https://spinchange.github.io/aphelion/solar-corona.html" />
+    <outline text="Total Solar Eclipses — Upcoming" type="link" url="https://spinchange.github.io/aphelion/solar-eclipses-total.html" />
+    <outline text="Solar Science" type="link" url="https://spinchange.github.io/aphelion/solar-science.html" />
+    <outline text="Solar Wind" type="link" url="https://spinchange.github.io/aphelion/solar-wind.html" />
+    <outline text="Southern Cross (Crux)" type="link" url="https://spinchange.github.io/aphelion/southern-cross.html" />
+    <outline text="Space Debris" type="link" url="https://spinchange.github.io/aphelion/space-debris.html" />
+    <outline text="Space Weather" type="link" url="https://spinchange.github.io/aphelion/space-weather.html" />
+    <outline text="Stellar Nucleosynthesis" type="link" url="https://spinchange.github.io/aphelion/stellar-nucleosynthesis.html" />
+    <outline text="Supernova" type="link" url="https://spinchange.github.io/aphelion/supernova.html" />
+    <outline text="Uranus (Planet)" type="link" url="https://spinchange.github.io/aphelion/uranus-planet.html" />
+    <outline text="Van Allen Radiation Belts" type="link" url="https://spinchange.github.io/aphelion/van-allen-radiation-belts.html" />
+    <outline text="Venus (Planet)" type="link" url="https://spinchange.github.io/aphelion/venus-planet.html" />
+    <outline text="Viking Navigation" type="link" url="https://spinchange.github.io/aphelion/viking-navigation.html" />
+    <outline text="Voyager Program" type="link" url="https://spinchange.github.io/aphelion/voyager-program.html" />
+    <outline text="White Dwarf" type="link" url="https://spinchange.github.io/aphelion/white-dwarf.html" />
+  </outline>
+  </body>
+</opml>
